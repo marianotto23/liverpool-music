@@ -88,32 +88,83 @@ POST /orders
 
 ## Estructura del proyecto
 
+```txt
 liverpool-music/
 ├── frontend/
 │   ├── src/
 │   │   ├── components/
+│   │   │   ├── CheckoutForm.tsx
+│   │   │   ├── CheckoutSummary.tsx
+│   │   │   ├── Footer.tsx
+│   │   │   ├── Layout.tsx
+│   │   │   ├── Navbar.tsx
+│   │   │   ├── ProductCard.tsx
+│   │   │   └── ProductFilters.tsx
+│   │   │
 │   │   ├── context/
+│   │   │   └── CartContext.tsx
+│   │   │
 │   │   ├── hooks/
+│   │   │   └── useProductFilter.ts
+│   │   │
 │   │   ├── pages/
+│   │   │   ├── About.tsx
+│   │   │   ├── Admin.tsx
+│   │   │   ├── AdminOrderDetail.tsx
+│   │   │   ├── AdminOrders.tsx
+│   │   │   ├── Cart.tsx
+│   │   │   ├── Checkout.tsx
+│   │   │   ├── Contact.tsx
+│   │   │   ├── Home.tsx
+│   │   │   ├── LastOrder.tsx
+│   │   │   ├── NotFound.tsx
+│   │   │   ├── ProductDetail.tsx
+│   │   │   └── Products.tsx
+│   │   │
 │   │   ├── services/
+│   │   │   └── api.ts
+│   │   │
 │   │   ├── types/
+│   │   │   ├── CartItem.ts
+│   │   │   ├── Order.ts
+│   │   │   └── Product.ts
+│   │   │
 │   │   ├── utils/
+│   │   │   ├── formatPrice.ts
+│   │   │   └── orderStorage.ts
+│   │   │
 │   │   ├── App.tsx
 │   │   ├── main.tsx
 │   │   └── index.css
+│   │
 │   ├── package.json
 │   └── vite.config.ts
 │
 └── backend/
     ├── src/
     │   ├── controllers/
+    │   │   ├── ordersController.ts
+    │   │   └── productsController.ts
+    │   │
     │   ├── data/
+    │   │   ├── orders.ts
+    │   │   └── products.ts
+    │   │
     │   ├── routes/
+    │   │   ├── index.ts
+    │   │   ├── ordersRoutes.ts
+    │   │   └── productsRoutes.ts
+    │   │
     │   ├── types/
+    │   │   ├── Order.ts
+    │   │   └── Product.ts
+    │   │
     │   ├── app.ts
     │   └── server.ts
+    │
     ├── package.json
     └── tsconfig.json
+```
 
 ## Instalación
 
