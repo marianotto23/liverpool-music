@@ -2,7 +2,7 @@ import type { Product } from "../types/Product";
 import type { BuyerData, Order } from "../types/Order";
 import type { CartItem } from "../types/CartItem";
 
-const API_URL = "http://localhost:4000";
+const API_URL = import.meta.env.VITE_API_URL;
 
 export async function getProducts(): Promise<Product[]> {
   const response = await fetch(`${API_URL}/products`);
