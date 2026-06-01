@@ -4,6 +4,13 @@ Liverpool Music es un ecommerce ficticio de instrumentos musicales desarrollado 
 
 El proyecto simula una tienda online completa con catálogo de productos, detalle individual, carrito de compras, checkout, creación de órdenes, persistencia local de última orden, panel administrativo y backend propio.
 
+## Links
+
+- Demo online: https://liverpool-music-frontend.vercel.app/
+- API online: https://name-liverpool-music-api.onrender.com
+- Repositorio: https://github.com/marianotto23/liverpool-music
+
+
 ## Tecnologías utilizadas
 
 ### Frontend
